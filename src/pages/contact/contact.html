@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Contact
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>Fale Conosco</ion-list-header>
+    <ion-item>
+      <ion-input type="text" placeholder="Nome"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="Email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="Mensagem"></ion-input>
+    </ion-item>
+    <button ion-button color="primary" block (click)="enviarMensagem()">Enviar</button>
+  </ion-list>
+</ion-content>
